@@ -4,7 +4,7 @@
 **Developer:** AliPlvP  
 **GitHub:** [github.com/aliplvp](https://github.com/aliplvp)
 
-A lightweight desktop application for Ubuntu, built with Python and Tkinter, to manage applications that launch automatically when you log in.
+A lightweight desktop application for Ubuntu, developed with Python and Tkinter, to manage applications that launch automatically when you log in.
 
 ---
 
@@ -16,25 +16,31 @@ A lightweight desktop application for Ubuntu, built with Python and Tkinter, to 
 - 🗑️ Remove user-added startup applications.
 - 🖥️ View system startup applications.
 - 🔒 Disable system startup applications without modifying system files.
-- 🎨 Simple graphical user interface.
+- 🎨 Simple and user-friendly graphical interface.
 - 🚀 Desktop application launcher with a custom icon.
 - 🐧 Designed for Ubuntu Linux.
 
-## 📦 Installation
+## 📦 Requirements
 
-1. Download or clone the repository:
+- Ubuntu Linux
+- Python 3
+- Python Tkinter
+
+## 📥 Installation
+
+**1. Clone the repository:**
 
 ```bash
 git clone https://github.com/aliplvp/Ubuntu-Startup-Manager.git
 ```
 
-2. Enter the project directory:
+**2. Enter the project directory:**
 
 ```bash
 cd Ubuntu-Startup-Manager
 ```
 
-3. Run the installer:
+**3. Run the installer:**
 
 ```bash
 chmod +x install.sh
@@ -49,22 +55,17 @@ Open the Ubuntu Applications menu and search for:
 
 **Startup Manager**
 
-Or run:
+Or launch it from the terminal:
 
 ```bash
 startup-manager
 ```
 
-## 🗑️ Uninstallation
+## 🛠️ Built With
 
-Run:
-
-```bash
-chmod +x uninstall.sh
-./uninstall.sh
-```
-
-Your existing startup configurations will remain untouched.
+- Python 3
+- Tkinter
+- Ubuntu Linux
 
 ---
 
@@ -74,6 +75,8 @@ Your existing startup configurations will remain untouched.
 
 - GitHub: https://github.com/aliplvp
 
+If you find this project useful, please consider giving it a ⭐ on GitHub.
+
 ---
 
 # 🇮🇷 مدیریت برنامه‌های شروع خودکار اوبونتو
@@ -82,7 +85,9 @@ Your existing startup configurations will remain untouched.
 **سازنده:** AliPlvP  
 **گیت‌هاب:** [github.com/aliplvp](https://github.com/aliplvp)
 
-نرم‌افزار Ubuntu Startup Manager یک ابزار دسکتاپ سبک و کاربردی است که با زبان Python و کتابخانه Tkinter توسعه داده شده و امکان مدیریت برنامه‌هایی را فراهم می‌کند که هنگام ورود به اوبونتو به‌صورت خودکار اجرا می‌شوند.
+نرم‌افزار Ubuntu Startup Manager یک ابزار دسکتاپ سبک و کاربردی است که با استفاده از زبان Python و کتابخانه Tkinter توسعه داده شده است.
+
+این نرم‌افزار به شما اجازه می‌دهد برنامه‌هایی را که هنگام ورود به اوبونتو به‌صورت خودکار اجرا می‌شوند، مدیریت کنید.
 
 ## ✨ امکانات
 
@@ -96,28 +101,34 @@ Your existing startup configurations will remain untouched.
 - 🚀 دارای آیکون اختصاصی و میانبر در منوی برنامه‌های اوبونتو
 - 🐧 طراحی‌شده مخصوص سیستم‌عامل Ubuntu
 
-## 📦 راهنمای نصب
+## 📦 پیش‌نیازها
 
-۱. ابتدا مخزن پروژه را دانلود یا Clone کنید:
+- سیستم‌عامل Ubuntu Linux
+- Python 3
+- کتابخانه Python Tkinter
+
+## 📥 راهنمای نصب
+
+**۱. دانلود پروژه:**
 
 ```bash
 git clone https://github.com/aliplvp/Ubuntu-Startup-Manager.git
 ```
 
-۲. وارد پوشه پروژه شوید:
+**۲. ورود به پوشه پروژه:**
 
 ```bash
 cd Ubuntu-Startup-Manager
 ```
 
-۳. فایل نصب را اجرا کنید:
+**۳. اجرای فایل نصب:**
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-در صورت نصب نبودن کتابخانه Python Tkinter، نصب‌کننده به‌صورت خودکار آن را بررسی و نصب می‌کند.
+در صورت نصب نبودن کتابخانه Tkinter، نصب‌کننده به‌صورت خودکار آن را بررسی و نصب می‌کند.
 
 ## ▶️ اجرای نرم‌افزار
 
@@ -125,22 +136,17 @@ chmod +x install.sh
 
 **Startup Manager**
 
-همچنین می‌توانید از ترمینال اجرا کنید:
+همچنین می‌توانید از طریق ترمینال اجرا کنید:
 
 ```bash
 startup-manager
 ```
 
-## 🗑️ حذف نرم‌افزار
+## 🛠️ فناوری‌های استفاده‌شده
 
-برای حذف نرم‌افزار دستورهای زیر را اجرا کنید:
-
-```bash
-chmod +x uninstall.sh
-./uninstall.sh
-```
-
-تنظیمات قبلی برنامه‌های Startup شما بدون تغییر باقی می‌مانند.
+- Python 3
+- Tkinter
+- Ubuntu Linux
 
 ---
 
@@ -148,8 +154,6 @@ chmod +x uninstall.sh
 
 **طراحی و توسعه توسط AliPlvP**
 
-- گیت‌هاب: https://github.com/aliplvp
+- GitHub: https://github.com/aliplvp
 
----
-
-⭐ اگر این پروژه برای شما مفید بود، با دادن Star در GitHub از آن حمایت کنید.
+اگر این پروژه برای شما مفید بود، با دادن ⭐ در GitHub از آن حمایت کنید.
